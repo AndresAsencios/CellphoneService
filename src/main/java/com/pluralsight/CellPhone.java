@@ -2,11 +2,12 @@ package com.pluralsight;
 
 public class CellPhone {
 
-    int serialNumber = 0;
-    String model = "";
-    String phoneCarrier = "";
-    String phoneNumber = "";
-    String phoneOwner = "";
+    private int serialNumber;
+    private String model;
+    private String phoneCarrier;
+    private String phoneNumber;
+    private String phoneOwner;
+
 
     public CellPhone() {
         serialNumber = 0;
@@ -51,13 +52,13 @@ public class CellPhone {
         return serialNumber;
     }
 
-    void displayInfo() {
-        System.out.println("Serial Number: " + serialNumber);
-        System.out.println("Model: " + model);
-        System.out.println("Phone Carrier: " + phoneCarrier);
-        System.out.println("Phone Number: " + phoneNumber);
-        System.out.println("Phone Owner: " + phoneOwner);
-        System.out.println("----------------------");
+//    void displayInfo() {
+//        System.out.println("Serial Number: " + serialNumber);
+//        System.out.println("Model: " + model);
+//        System.out.println("Phone Carrier: " + phoneCarrier);
+//        System.out.println("Phone Number: " + phoneNumber);
+//        System.out.println("Phone Owner: " + phoneOwner);
+//        System.out.println("----------------------");
     }
-}
+//}
 
