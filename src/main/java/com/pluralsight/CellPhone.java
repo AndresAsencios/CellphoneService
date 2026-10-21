@@ -58,11 +58,6 @@ public class CellPhone {
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Phone Owner: " + phoneOwner);
         System.out.println("----------------------");
-        // What is the serial number?
-        // What model is the phone?
-        // Who is the carrier?
-        // What is the phone number?
-        // Who is the owner of the phone?
     }
 }
 

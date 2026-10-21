@@ -28,13 +28,14 @@ public class CellPhoneApplication {
         String phoneOwner = read.nextLine();
         cellPhone1.setPhoneOwner(phoneOwner);
 
-        System.out.println("----------------------");
-        System.out.println("CELL PHONE INFORMATION");
-        System.out.println("Serial Number: " + cellPhone1.getSerialNumber());
-        System.out.println("Model: " + cellPhone1.getModel());
-        System.out.println("Phone carrier: " + cellPhone1.getPhoneCarrier());
-        System.out.println("Phone number: " + cellPhone1.getPhoneNumber());
-        System.out.println("Phone owner is " + cellPhone1.getPhoneOwner());
+        System.out.print("----------------------");
+        System.out.print("CELL PHONE INFORMATION");
+        System.out.print("----------------------");
+        System.out.print("\nSerial Number: " + cellPhone1.getSerialNumber());
+        System.out.print("\nModel: " + cellPhone1.getModel());
+        System.out.print("\nPhone carrier: " + cellPhone1.getPhoneCarrier());
+        System.out.print("\nPhone number: " + cellPhone1.getPhoneNumber());
+        System.out.print("\nPhone owner is " + cellPhone1.getPhoneOwner());
 
 
         read.close();
